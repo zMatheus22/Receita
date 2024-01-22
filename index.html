@@ -4,77 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Receita</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./img/receita.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <a href="/">
-        <p>Receita</p>
-        <img src="./img/receita.png" alt="Logo receita Brasil" />
-        <p>Brasil</p>
+        <img src="./img/logo_tudogostoso.png" alt="Logo receita Brasil" />
       </a>
     </header>
-    <main>
+    <div class="img-bolo">
       <picture></picture>
-      <h1>Bolo prestígio</h1>
-      <section class="ingredientes">
+    </div>
+    <main>
+      <h1>Bolo</h1>
+      <section class="cartao ingredientes">
         <h2>Ingredientes</h2>
-        <ul>
-          <li>Bolo</li>
-          <ul>
-            <li>3 ovos</li>
+        <ul class="lista-ingredientes">
+          <li>3 ovos</li>
 
-            <li>1/2 xícara (chá) de óleo</li>
+          <li>1/2 xícara (chá) de óleo</li>
 
-            <li>1 xícara (chá) de leite</li>
+          <li>1 xícara (chá) de leite</li>
 
-            <li>1 xícara (chá) de açúcar</li>
+          <li>1 xícara (chá) de açúcar</li>
 
-            <li>1 xícara (chá) de chocolate em pó</li>
+          <li>1 xícara (chá) de chocolate em pó</li>
 
-            <li>2 xícaras (chá) de farinha de trigo</li>
+          <li>2 xícaras (chá) de farinha de trigo</li>
 
-            <li>1 colher (sopa) de fermento</li>
+          <li>1 colher (sopa) de fermento</li>
 
-            <li>coco ralado a gosto</li>
-          </ul>
-          <li>Calda</li>
-          <ul>
-            <li>1 garrafa de leite de coco</li>
-
-            <li>1 xícara (chá) de leite</li>
-
-            <li>3 colheres (sopa) de açúcar</li>
-          </ul>
-          <li>Recheio</li>
-          <ul>
-            <li>1 lata de leite condensado</li>
-
-            <li>1 colher (sopa) de margarina</li>
-
-            <li>100 g de coco ralado</li>
-          </ul>
-          <li>Cobertura</li>
-          <ul>
-            <li>3 colheres (sopa) de margarina</li>
-
-            <li>8 colheres (sopa) de açúcar</li>
-
-            <li>2 colheres (sopa) de chocolate em pó</li>
-
-            <li>2 xícaras (chá) de leite</li>
-          </ul>
+          <li>coco ralado a gosto</li>
         </ul>
+        <a href="#" target="_blank" class="botao-comprar">
+          Comprar ingredientes
+        </a>
       </section>
-      <section class="preparo">
+      <section class="cartao preparo">
         <h2>Modo de preparo</h2>
-        <div class="time">
-          <i>time</i>
-          <p>Modo de preparo: <strong>1h 15min</strong></p>
-        </div>
         <ol>
-          <span>Bolo</span>
           <li>
             Bata no liquidificador, os ovos, o óleo e o leite por 3 minutos e
             reserve.
@@ -93,31 +61,10 @@
             limpo.
           </li>
           <li>Deixe esfriar, corte ao meio e reserve.</li>
-          <span>Calda</span>
-          <li>
-            Em um recipiente, misture o leite de coco, o leite e o açúcar e
-            despeje sobre a massa cortada ao meio para umedecê-la.
-          </li>
-          <span>Recheio</span>
-          <li>
-            Em uma panela, leve o leite condensado, a margarina e o coco ralado
-            ao fogo até desgrudar do fundo e recheie o bolo.
-          </li>
-          <li>
-            Cubra com a outra metade da massa, faça alguns furos com o garfo e
-            despeje mais calda.
-          </li>
-          <span>Cobertura</span>
-          <li>
-            Leve a margarina, o açúcar, o chocolate em pó e o leite ao fogo até
-            obter uma consistência firme e cubra o bolo.
-          </li>
-          <li>Leve a geladeira por aproximadamente 45 minutos.</li>
         </ol>
       </section>
-      <section class="adicional">
-        <h3>Informações adicionais</h3>
-        <h4>Dicas para preparar a melhor receita de bolo prestígio</h4>
+      <section class="cartao intrucoes">
+        <h2>Intruções adicionais</h2>
         <p>
           Que tal caprichar ainda mais no seu bolo prestígiogelado e arrasar na
           cobertura? Você pode testar uma cobertura de chocolate para bolo,
@@ -163,17 +110,14 @@
           suas favoritas e se delicie!
         </p>
       </section>
-      <section class="tags">
-        <h5>Categorias relacionadas</h5>
-        <ul>
-          <li>Bolos e tortas doces</li>
-          <li>Bolo de liquidificador</li>
-          <li>Cupcake</li>
-          <li>Bolo de chocolate</li>
-          <li>Bolo simples</li>
-        </ul>
-      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Site de estudo de HTML, CSS.</p>
+      <br />
+      <p>
+        Encontrou algum problema com a receita? Por favor envie um email para
+        <a href="mailto:estudo@receita.com.br">estudo@receita.com.br</a>
+      </p>
+    </footer>
   </body>
 </html>
