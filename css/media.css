@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+  main .cartao {
+    border-radius: 20px;
+    padding: 70px 100px;
+  }
+
+  main .cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+  }
+
+  main .ingredientes {
+    cursor: url("../img/cursor_ingredientes.png"), default;
+  }
+
+  main .preparo {
+    cursor: url("../img/cursor_preparo.png"), default;
+  }
+
+  main .intrucoes {
+    cursor: url("../img/cursor_intrucoes.png"), default;
+  }
+}

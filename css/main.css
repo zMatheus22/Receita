@@ -1,0 +1,67 @@
+main,
+.img-bolo {
+  max-width: 750px;
+  margin: auto;
+}
+
+picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  height: 15em;
+  background: black url("../img/hero_bolo.jpg") no-repeat center;
+  background-size: cover;
+}
+
+main {
+  padding: 0 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--cor-das-fontes);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+main .cartao {
+  margin-top: 50px;
+}
+
+main .botao-comprar {
+  background-color: var(--cor-das-fontes);
+  color: white;
+  padding: 0.7em;
+  border-radius: 20px;
+}
+
+main .lista-ingredientes {
+  margin-bottom: 50px;
+}
+
+main li {
+  margin-bottom: 14px;
+}
+
+p,
+li {
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+@import url("./media.css");
+
+/*
+Fonte: Lato (google fonts)
+Cor das fontes: #ff6b28
+Cor da top bar e da footer: #ff6b28
+*/
+:root {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  --cor-das-fontes: #ff6b28;
+  --cor-header-e-footer: #ff6b28;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
